@@ -31,30 +31,30 @@ jazz-network-review/
 
 1. Clone the repository
 
-git clone https://github.com/your-username/jazz-network-review.git
-cd jazz-network-review
+   - git clone https://github.com/your-username/jazz-network-review.git
+   - cd jazz-network-review
 
 2. Install Dependencies
 
-# Backend dependencies
+### Backend dependencies
 cd server
 npm install
 
-# Frontend dependencies
+### Frontend dependencies
 cd ../client
 npm install
 
 3. Run the App (in two terminals)
 
-# Terminal 1 - Start backend
+Terminal 1 - Start backend
 cd server
 node index.js
 
-# Terminal 2 - Start frontend
+Terminal 2 - Start frontend
 cd client
 npm start
 
-## Access the App
+### Access the App
 
 Open your browser and go to:
 http://localhost:3000
