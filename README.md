@@ -22,9 +22,9 @@ This project automates the performance review of Jazz mobile network sites by pr
 ## Project Structure
 
 jazz-network-review/
-├── client/         → React frontend (UI for uploading, filtering, visualizing data)
-├── server/         → Express backend (handles Excel processing and API routes)
-└── README.md       → Project documentation and setup instructions
+├── client/      → React frontend (UI for uploading, filtering, visualizing data)
+├── server/      → Express backend (handles Excel processing and API routes)
+├── .gitignore   → Git ignore rules for node_modules, logs, etc.
 
 
 ## Getting Started
