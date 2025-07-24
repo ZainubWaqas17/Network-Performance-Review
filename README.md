@@ -21,23 +21,19 @@ This project automates the performance review of Jazz mobile network sites by pr
 
 ## Project Structure
 
-jazz-network-review/
+- `client/`: React frontend (UI for uploading, filtering, visualizing data)
+- `server/`: Express backend (handles Excel processing and API routes)
 
-├── client/     → React frontend (UI for uploading, filtering, visualizing data)
-
-├── server/    → Express backend (handles Excel processing and API routes)
-
-├── .gitignore  → Git ignore rules for node_modules, logs, etc.
 
 
 ## Getting Started
 
-1. Clone the repository
+### Clone the repository
 
    - git clone https://github.com/your-username/jazz-network-review.git
    - cd jazz-network-review
 
-2. Install Dependencies
+### Install Dependencies
 
   ##### Backend dependencies
 - cd server
@@ -47,7 +43,7 @@ jazz-network-review/
 - cd ../client
 - npm install
 
-3. Run the App (in two terminals)
+### Run the App (in two terminals)
 
 ##### Terminal 1 - Start backend
 - cd server
