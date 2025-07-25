@@ -1,10 +1,10 @@
 # Network Performance Review Automation App
 
-This project automates the performance review of Jazz mobile network sites by processing KPI data from Excel files. Users can input a site number and date range to visualize outages, calculate key metrics, and export results for reporting.
+This project automates the performance review of telecom mobile network sites by processing KPI data from Excel files. Users can input a site number and date range to visualize outages, calculate key metrics, and export results for reporting.
 
 ## Features
 
-- Upload and parse Jazz KPI Excel files
+- Upload and parse telecom KPI Excel files
 - Filter by site number and date range
 - Display outage metrics and summaries
 - Export filtered results to Excel
